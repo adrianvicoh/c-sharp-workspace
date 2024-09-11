@@ -1,0 +1,7 @@
+C:\Users\Vico\source\repos\Algoritmos\Algoritmos\bin\Debug\Algoritmos.exe.config
+C:\Users\Vico\source\repos\Algoritmos\Algoritmos\bin\Debug\Algoritmos.exe
+C:\Users\Vico\source\repos\Algoritmos\Algoritmos\bin\Debug\Algoritmos.pdb
+C:\Users\Vico\source\repos\Algoritmos\Algoritmos\obj\Debug\Algoritmos.csproj.AssemblyReference.cache
+C:\Users\Vico\source\repos\Algoritmos\Algoritmos\obj\Debug\Algoritmos.csproj.CoreCompileInputs.cache
+C:\Users\Vico\source\repos\Algoritmos\Algoritmos\obj\Debug\Algoritmos.exe
+C:\Users\Vico\source\repos\Algoritmos\Algoritmos\obj\Debug\Algoritmos.pdb

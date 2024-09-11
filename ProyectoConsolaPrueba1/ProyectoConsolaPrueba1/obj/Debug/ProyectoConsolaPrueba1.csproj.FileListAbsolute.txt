@@ -1,0 +1,7 @@
+C:\Users\Vico\source\repos\ProyectoConsolaPrueba1\ProyectoConsolaPrueba1\bin\Debug\ProyectoConsolaPrueba1.exe.config
+C:\Users\Vico\source\repos\ProyectoConsolaPrueba1\ProyectoConsolaPrueba1\bin\Debug\ProyectoConsolaPrueba1.exe
+C:\Users\Vico\source\repos\ProyectoConsolaPrueba1\ProyectoConsolaPrueba1\bin\Debug\ProyectoConsolaPrueba1.pdb
+C:\Users\Vico\source\repos\ProyectoConsolaPrueba1\ProyectoConsolaPrueba1\obj\Debug\ProyectoConsolaPrueba1.csproj.AssemblyReference.cache
+C:\Users\Vico\source\repos\ProyectoConsolaPrueba1\ProyectoConsolaPrueba1\obj\Debug\ProyectoConsolaPrueba1.csproj.CoreCompileInputs.cache
+C:\Users\Vico\source\repos\ProyectoConsolaPrueba1\ProyectoConsolaPrueba1\obj\Debug\ProyectoConsolaPrueba1.exe
+C:\Users\Vico\source\repos\ProyectoConsolaPrueba1\ProyectoConsolaPrueba1\obj\Debug\ProyectoConsolaPrueba1.pdb
