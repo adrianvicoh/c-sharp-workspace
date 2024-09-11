@@ -52,7 +52,7 @@ namespace ProgramacionAlgoritmos
             String newString = "";
             for (int i = 0; i < inputString.Length; i++)
             {
-                if (i == 0 || inputString[])
+                if (i == 0 || inputString[i -1])
                 {
                 }
             }
