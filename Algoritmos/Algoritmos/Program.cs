@@ -49,11 +49,15 @@ namespace ProgramacionAlgoritmos
          */
         static String CamelCase(string inputString)
         {
-            String newString = "";
+            //String newString = "";
+            StringBuilder newString = new StringBuilder("", inputString.Length);
             for (int i = 0; i < inputString.Length; i++)
             {
-                if (i == 0 || inputString[i -1])
+                if (i == 0 || inputString[i -1] == ' ')
                 {
+                    
+                    char nextChar = inputString[i] + (char)45;
+                    newString.Append(new char inputString[i] + 45);
                 }
             }
             return "Hola";
