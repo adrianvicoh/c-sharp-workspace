@@ -50,23 +50,27 @@ namespace ProgramacionAlgoritmos
         static String CamelCase(string inputString)
         {
             //String newString = "";
-            StringBuilder newString = new StringBuilder("", inputString.Length);
+            StringBuilder newString = new StringBuilder();
             for (int i = 0; i < inputString.Length; i++)
             {
-                if (i == 0 || inputString[i -1] == ' ')
+                if (i == 0 || inputString[i - 1] == ' ')
                 {
-                    
-                    char nextChar = inputString[i] + (char)45;
-                    newString.Append(new char inputString[i] + 45);
+                    char nextChar = Char.ToUpper(inputString[i]);
+                    newString.Append(nextChar);
+                }
+                else
+                {
+                    newString.Append(Char.ToLower(inputString[i]));
                 }
             }
-            return "Hola";
+            return newString.ToString();
         }
 
         static void Main(string[] args)
         {
             Console.WriteLine("División de 124 entre 8: " + Division(124, 8));
             Console.WriteLine("Media de 8, 14, 25: " + Average(new int[] { 8, 14, 25 }));
+            Console.WriteLine("Convertir a Camel Case 'hola que tal': " + CamelCase("hola que tal"));
             Console.ReadKey();
         }
     }
