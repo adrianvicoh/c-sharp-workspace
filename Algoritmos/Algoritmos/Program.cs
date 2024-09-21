@@ -20,13 +20,18 @@ namespace Algoritmos
             DateTime date1 = new DateTime(2023, 4, 15);
             DateTime date2 = new DateTime(2024, 12, 4);
             Console.WriteLine();
-            Console.WriteLine("Comparación entre fechas: " + date1 + " --- " + date2);
+            Console.WriteLine("Comparación entre fechas: " + date1 + " <---> " + date2);
             Console.WriteLine("Fecha más grande: " + DateControl.HighestDate(date1, date2));
             Console.WriteLine();
             Console.WriteLine("Comparar cadenas de caracteres:");
             Console.WriteLine("Cadena 1: Hola, adiós");
             Console.WriteLine("Cadena 2: Adiós, muy buenas");
             Console.WriteLine("Cadena más alta: " + StringControl.CompareStrings("Hola, adiós", "Adiós, muy buenas"));
+            Console.WriteLine();
+            Console.WriteLine("Es 'tenet' un palindromo: " + PalindromeControl.Palindrome("tenet"));
+            Console.WriteLine("Es 'algo' un palindromo: " + PalindromeControl.Palindrome("algo"));
+            Console.WriteLine("Es 'saddas' un palindromo: " + PalindromeControl.Palindrome("saddas"));
+            Console.WriteLine("Es 'alguna cosa' un palindromo: " + PalindromeControl.Palindrome("alguna cosa"));
             Console.ReadKey();
         }
     }
