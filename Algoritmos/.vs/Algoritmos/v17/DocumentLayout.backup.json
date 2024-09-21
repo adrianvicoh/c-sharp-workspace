@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{F59368A0-2C24-45E5-9519-EE32202642F4}|Algoritmos\\Algoritmos.csproj|c:\\users\\vico\\source\\repos\\algoritmos\\algoritmos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F59368A0-2C24-45E5-9519-EE32202642F4}|Algoritmos\\Algoritmos.csproj|solutionrelative:algoritmos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59368A0-2C24-45E5-9519-EE32202642F4}|Algoritmos\\Algoritmos.csproj|c:\\users\\vico\\source\\repos\\algoritmos\\algoritmos\\stringcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59368A0-2C24-45E5-9519-EE32202642F4}|Algoritmos\\Algoritmos.csproj|solutionrelative:algoritmos\\stringcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StringControl.cs",
+              "DocumentMoniker": "C:\\Users\\Vico\\source\\repos\\Algoritmos\\Algoritmos\\StringControl.cs",
+              "RelativeDocumentMoniker": "Algoritmos\\StringControl.cs",
+              "ToolTip": "C:\\Users\\Vico\\source\\repos\\Algoritmos\\Algoritmos\\StringControl.cs",
+              "RelativeToolTip": "Algoritmos\\StringControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T16:43:40.892Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -28,9 +45,9 @@
               "RelativeDocumentMoniker": "Algoritmos\\Program.cs",
               "ToolTip": "C:\\Users\\Vico\\source\\repos\\Algoritmos\\Algoritmos\\Program.cs",
               "RelativeToolTip": "Algoritmos\\Program.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAIwIoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T12:33:16.183Z",
+              "WhenOpened": "2024-09-21T14:42:35.908Z",
               "EditorCaption": ""
             }
           ]
