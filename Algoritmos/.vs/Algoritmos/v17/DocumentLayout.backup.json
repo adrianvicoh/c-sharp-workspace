@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +28,9 @@
               "RelativeDocumentMoniker": "Algoritmos\\Program.cs",
               "ToolTip": "C:\\Users\\Vico\\source\\repos\\Algoritmos\\Algoritmos\\Program.cs",
               "RelativeToolTip": "Algoritmos\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowEkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwGgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T20:58:34.049Z",
+              "WhenOpened": "2024-09-21T10:25:36.618Z",
               "EditorCaption": ""
             }
           ]

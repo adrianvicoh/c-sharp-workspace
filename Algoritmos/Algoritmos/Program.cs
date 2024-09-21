@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,8 +45,8 @@ namespace ProgramacionAlgoritmos
 
         /** Function CamelCase
          * Return an array with camel case
-         * input array
-         * return array with conversion
+         * input string to convert
+         * return string with conversion
          */
         static String CamelCase(string inputString)
         {
@@ -53,24 +54,69 @@ namespace ProgramacionAlgoritmos
             StringBuilder newString = new StringBuilder();
             for (int i = 0; i < inputString.Length; i++)
             {
-                if (i == 0 || inputString[i - 1] == ' ')
+                if (inputString[i] != ' ')
                 {
-                    char nextChar = Char.ToUpper(inputString[i]);
-                    newString.Append(nextChar);
-                }
-                else
-                {
-                    newString.Append(Char.ToLower(inputString[i]));
+                    if (i == 0 || inputString[i - 1] == ' ')
+                    {
+                        newString.Append(Char.ToUpper(inputString[i]));
+                    }
+                    else
+                    {
+                        newString.Append(Char.ToLower(inputString[i]));
+                    }
                 }
             }
             return newString.ToString();
         }
 
+        /** Function HighestDate
+         * Return the highest date
+         * input date1
+         * input date2
+         * return date
+         */
+        static DateTime HighestDate(DateTime date1, DateTime date2)
+        {
+            DateTime highest = new DateTime();
+            if (date1.Year == date2.Year)
+            {
+                if (date1.Month == date2.Month)
+                {
+                    if (date1.Day >= date2.Day)
+                    {
+                        highest = date1;
+                    }
+                    else
+                    {
+                        highest = date2;
+                    }
+                }
+                else if (date1.Month > date2.Month)
+                {
+                    highest = date1;
+                }
+            }
+            else if (date1.Year > date2.Year)
+            {
+                highest = date1;
+            }
+            else
+            {
+                highest = date2;
+            }
+            return highest;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("División de 124 entre 8: " + Division(124, 8));
             Console.WriteLine("Media de 8, 14, 25: " + Average(new int[] { 8, 14, 25 }));
             Console.WriteLine("Convertir a Camel Case 'hola que tal': " + CamelCase("hola que tal"));
+            DateTime date1 = new DateTime(2023, 4, 15);
+            DateTime date2 = new DateTime(2024, 12, 4);
+            Console.WriteLine();
+            Console.WriteLine("Comparación entre fechas: " + date1 + " --- " + date2);
+            Console.WriteLine("Fecha más grande: " + HighestDate(date1, date2));
+            Console.WriteLine();
             Console.ReadKey();
         }
     }
