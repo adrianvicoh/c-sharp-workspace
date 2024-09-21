@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
+using System.Diagnostics.SymbolStore;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -106,6 +107,37 @@ namespace ProgramacionAlgoritmos
             }
             return highest;
         }
+
+        /** Function CompareStrings
+         * Return te highest alfabetical string
+         * input string1
+         * input string2
+         * return string
+         */
+        static String CompareStrings(String string1, String string2)
+        {
+            Boolean found = false;
+            int counter = 0;
+            String highest = string1;
+            do
+            {
+                if (string1[counter] == string2[counter])
+                {
+                    counter++;
+                }
+                else if (string1[counter] > string2[counter])
+                {
+                    highest = string2;
+                    found = true;
+                }
+                else
+                {
+                    found = true;
+                }
+            } while (counter <= string1.Length && counter <= string2.Length && !found);
+            return highest;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("División de 124 entre 8: " + Division(124, 8));
@@ -117,6 +149,10 @@ namespace ProgramacionAlgoritmos
             Console.WriteLine("Comparación entre fechas: " + date1 + " --- " + date2);
             Console.WriteLine("Fecha más grande: " + HighestDate(date1, date2));
             Console.WriteLine();
+            Console.WriteLine("Comparar cadenas de caracteres:");
+            Console.WriteLine("Cadena 1: Hola, adiós");
+            Console.WriteLine("Cadena 1: Adiós, muy buenas");
+            Console.WriteLine("Cadena más alta: " + CompareStrings("Hola, adiós", "Adiós, muy buenas"));
             Console.ReadKey();
         }
     }
