@@ -1,0 +1,7 @@
+C:\Users\Vico\source\repos\EjerciciosC21\bin\Debug\EjerciciosC21.exe.config
+C:\Users\Vico\source\repos\EjerciciosC21\bin\Debug\EjerciciosC21.exe
+C:\Users\Vico\source\repos\EjerciciosC21\bin\Debug\EjerciciosC21.pdb
+C:\Users\Vico\source\repos\EjerciciosC21\obj\Debug\EjerciciosC21.csproj.AssemblyReference.cache
+C:\Users\Vico\source\repos\EjerciciosC21\obj\Debug\EjerciciosC21.csproj.CoreCompileInputs.cache
+C:\Users\Vico\source\repos\EjerciciosC21\obj\Debug\EjerciciosC21.exe
+C:\Users\Vico\source\repos\EjerciciosC21\obj\Debug\EjerciciosC21.pdb
