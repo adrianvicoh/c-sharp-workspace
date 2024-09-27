@@ -35,19 +35,24 @@ namespace EjerciciosC21
                         if (validInt)
                         {
                             Console.WriteLine("");
-                            Console.WriteLine(numBase + " elevado a " + numPow + " es igual a " + NumberController.PowerOperation(numBase, numPow));
+                            Console.WriteLine("----------------------------------------------------");
+                            Console.WriteLine("///// " + numBase + " elevado a " + numPow + " es igual a " + NumberController.PowerOperation(numBase, numPow));
+                            Console.WriteLine("----------------------------------------------------");
                             Console.WriteLine("");
                             inputString = "exit";
                         }
                         else if (inputString != "exit")
                         {
                             Console.WriteLine("Input o número no válido");
+                            Console.WriteLine("");
                         }
                     }
+                    inputString = "";
                 }
                 else if (inputString != "exit")
                 {
                     Console.WriteLine("Input o número no válido");
+                    Console.WriteLine("");
                 }
             }
         }
@@ -58,22 +63,24 @@ namespace EjerciciosC21
             Console.WriteLine("===============");
             Console.WriteLine("Ejercicios C2.1");
             Console.WriteLine("===============");
-            Console.WriteLine("");
             while (option != "exit")
             {
                 switch (option)
                 {
-                    case "potencia":
+                    case "pow":
                         PowLoader();
                         option = "";
                         break;
                     default:
+                        Console.WriteLine("");
                         Console.WriteLine("------------------");
                         Console.WriteLine("Escribe la opción:");
                         Console.WriteLine("------------------");
                         Console.WriteLine("");
-                        Console.WriteLine("1 - potencia");
-                        Console.WriteLine("salir - exit");
+                        Console.WriteLine("pow\t-- potencia");
+                        Console.WriteLine("exit\t-- salir");
+                        Console.WriteLine("");
+                        Console.WriteLine("------------------");
                         Console.WriteLine("");
                         Console.Write("EJERCICIOS C2.1 > ");
                         option = Console.ReadLine();

@@ -10,10 +10,10 @@ namespace EjerciciosC21
     {
         static public int PowerOperation(int numBase, int numPow)
         {
-            int result = 1;
-            for( int i = 1; i <= numPow; i++)
+            int result = numBase;
+            for( int i = 1; i < numPow; i++)
             {
-                result *= numPow;
+                result *= numBase;
             }
             return result;
         }
