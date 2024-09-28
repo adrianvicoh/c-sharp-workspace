@@ -19,12 +19,15 @@ namespace EjerciciosC21
             {
                 switch (option)
                 {
-                    case "div":
-                        LoaderHandler.DivisionLoader();
-                        break;
                     case "pow":
                         LoaderHandler.PowLoader();
                         option = "";
+                        break;
+                    case "div":
+                        LoaderHandler.DivisionLoader();
+                        break;
+                    case "strc":
+                        LoaderHandler.StringCompareLoader();
                         break;
                     default:
                         Console.WriteLine("");
@@ -34,6 +37,7 @@ namespace EjerciciosC21
                         Console.WriteLine("");
                         Console.WriteLine("pow\t-- potencia");
                         Console.WriteLine("div\t-- división");
+                        Console.WriteLine("strc\t-- comparar Strings");
                         Console.WriteLine("exit\t-- salir");
                         Console.WriteLine("");
                         Console.WriteLine("------------------");

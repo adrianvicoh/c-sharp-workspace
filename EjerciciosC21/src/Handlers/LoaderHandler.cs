@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EjerciciosC21.src.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,7 +37,7 @@ namespace EjerciciosC21
                         {
                             Console.WriteLine("");
                             Console.WriteLine("----------------------------------------------------");
-                            Console.WriteLine("///// " + numBase + " elevado a " + numPow + " es igual a " + NumberController.PowerOperation(numBase, numPow));
+                            Console.WriteLine("///// " + numBase + " elevado a " + numPow + " es igual a " + NumberControl.PowerOperation(numBase, numPow));
                             Console.WriteLine("----------------------------------------------------");
                             Console.WriteLine("");
                             inputString = "exit";
@@ -84,13 +85,14 @@ namespace EjerciciosC21
                         {
                             Console.WriteLine("");
                             Console.WriteLine("----------------------------------------------------");
-                            Console.WriteLine("///// " + numerator + " entre " + divisor + " es igual a " + NumberController.Division(numerator, divisor));
+                            Console.WriteLine("///// " + numerator + " entre " + divisor + " es igual a " + NumberControl.Division(numerator, divisor));
                             Console.WriteLine("----------------------------------------------------");
                             Console.WriteLine("");
                             inputString = "exit";
                         }
                         else if (inputString != "exit")
                         {
+                            Console.WriteLine("");
                             Console.WriteLine("Input o número no válido");
                             Console.WriteLine("");
                         }
@@ -99,8 +101,59 @@ namespace EjerciciosC21
                 }
                 else if (inputString != "exit")
                 {
+                    Console.WriteLine("");
                     Console.WriteLine("Input o número no válido");
                     Console.WriteLine("");
+                }
+            }
+        }
+
+        public static void StringCompareLoader()
+        {
+           String string1 = "", string2 = "";
+            while (string1 != "exit")
+            {
+                Console.WriteLine("");
+                Console.WriteLine("Introduce el primer String o escribe 'exit' para cancelar");
+                Console.WriteLine("");
+                Console.Write("EJERCICIOS C2.1 > COMPARAR STRINGS > STRING 1 > ");
+                string1 = Console.ReadLine();
+                if (string1 != "exit")
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("Introduce el segundo String o escribe 'exit' para cancelar");
+                    Console.WriteLine("");
+                    Console.Write("EJERCICIOS C2.1 > COMPARAR STRINGS > STRING 2 > ");
+                    string2 = Console.ReadLine();
+                    if (string2 != "exit")
+                    {
+                        bool? compare = StringControl.CompareStrings(string1, string2);
+                        Console.WriteLine("");
+                        Console.WriteLine("----------------------------------------------------");
+                        Console.WriteLine("///// STRING 1 = '" + string1 + "'");
+                        Console.WriteLine("///// STRING 2 = '" + string2 + "'\n");
+                        Console.WriteLine("///// RESULTADO de comparación: " + compare);
+                        if (compare == true)
+                        {
+                            Console.WriteLine("///// STRING 1 es el primero alfabéticamente");
+                        }
+                        else if (compare == false)
+                        {
+                            Console.WriteLine("///// STRING 2 es el primero alfabéticamente");
+                        }
+                        else
+                        {
+                            Console.WriteLine("///// STRING 1 y 2 son iguales");
+                        }
+                        Console.WriteLine("----------------------------------------------------");
+                        string1 = "";
+                        string2 = "";
+                    }
+                    else
+                    {
+                        string1 = "";
+                        string2 = "";
+                    }
                 }
             }
         }

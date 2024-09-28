@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EjerciciosC21
 {
-    public class NumberController
+    public class NumberControl
     {
         static public int PowerOperation(int numBase, int numPow)
         {
