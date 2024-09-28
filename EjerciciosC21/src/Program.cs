@@ -19,6 +19,9 @@ namespace EjerciciosC21
             {
                 switch (option)
                 {
+                    case "div":
+                        LoaderHandler.DivisionLoader();
+                        break;
                     case "pow":
                         LoaderHandler.PowLoader();
                         option = "";
@@ -30,6 +33,7 @@ namespace EjerciciosC21
                         Console.WriteLine("------------------");
                         Console.WriteLine("");
                         Console.WriteLine("pow\t-- potencia");
+                        Console.WriteLine("div\t-- división");
                         Console.WriteLine("exit\t-- salir");
                         Console.WriteLine("");
                         Console.WriteLine("------------------");

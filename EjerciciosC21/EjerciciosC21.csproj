@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Handlers\LoaderHandler.cs" />
-    <Compile Include="Controllers\NumberController.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="src\Handlers\LoaderHandler.cs" />
+    <Compile Include="src\Controllers\NumberController.cs" />
+    <Compile Include="src\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
