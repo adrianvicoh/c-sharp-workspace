@@ -29,6 +29,9 @@ namespace EjerciciosC21
                     case "strc":
                         LoaderHandler.StringCompareLoader();
                         break;
+                    case "datec":
+                        LoaderHandler.DateCompareLoader();
+                        break;
                     default:
                         Console.WriteLine("");
                         Console.WriteLine("------------------");
@@ -38,6 +41,7 @@ namespace EjerciciosC21
                         Console.WriteLine("pow\t-- potencia");
                         Console.WriteLine("div\t-- división");
                         Console.WriteLine("strc\t-- comparar Strings");
+                        Console.WriteLine("datec\t-- comparar fechas");
                         Console.WriteLine("exit\t-- salir");
                         Console.WriteLine("");
                         Console.WriteLine("------------------");

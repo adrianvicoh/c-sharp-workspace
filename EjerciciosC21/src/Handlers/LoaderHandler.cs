@@ -110,7 +110,7 @@ namespace EjerciciosC21
 
         public static void StringCompareLoader()
         {
-           String string1 = "", string2 = "";
+            String string1 = "", string2 = "";
             while (string1 != "exit")
             {
                 Console.WriteLine("");
@@ -156,6 +156,40 @@ namespace EjerciciosC21
                     }
                 }
             }
+        }
+
+        public static void DateCompareLoader()
+        {
+            string date1, date2;
+            Console.WriteLine("");
+            Console.WriteLine("Introduce la primera fecha con formato dd/mm/aaaa");
+            Console.WriteLine("");
+            Console.Write("EJERCICIOS C2.1 > COMPARAR FECHAS > FECHA 1 > ");
+            date1 = Console.ReadLine();
+            Console.WriteLine("");
+            Console.WriteLine("Introduce la segunda fecha con formato dd/mm/aaaa");
+            Console.WriteLine("");
+            Console.Write("EJERCICIOS C2.1 > COMPARAR FECHAS > FECHA 2 > ");
+            date2 = Console.ReadLine();
+            bool? compare = StringControl.CompareDate(date1, date2);
+            Console.WriteLine("");
+            Console.WriteLine("----------------------------------------------------");
+            Console.WriteLine("///// FECHA 1 = '" + date1 + "'");
+            Console.WriteLine("///// FECHA 2 = '" + date2 + "'\n");
+            Console.WriteLine("///// RESULTADO de comparación: " + compare);
+            if (compare == true)
+            {
+                Console.WriteLine("///// FECHA 1 es posterior a FECHA 2");
+            }
+            else if (compare == false)
+            {
+                Console.WriteLine("///// FECHA 1 es anterior a FECHA 2");
+            }
+            else
+            {
+                Console.WriteLine("///// FECHAS 1 y 2 son iguales");
+            }
+            Console.WriteLine("----------------------------------------------------");
         }
     }
 }
