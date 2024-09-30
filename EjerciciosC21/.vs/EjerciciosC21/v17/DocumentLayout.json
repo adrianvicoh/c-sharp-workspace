@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|c:\\users\\vico\\source\\repos\\ejerciciosc21\\src\\handlers\\loaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|solutionrelative:src\\handlers\\loaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\controllers\\stringcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|solutionrelative:src\\controllers\\stringcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\controllers\\numbercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|solutionrelative:src\\controllers\\numbercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|c:\\users\\vico\\source\\repos\\ejerciciosc21\\src\\handlers\\loaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|solutionrelative:src\\handlers\\loaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\controllers\\stringcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D31FD2-5133-4ED7-82A1-84641368A4E5}|EjerciciosC21.csproj|solutionrelative:src\\controllers\\stringcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StringControl.cs",
               "DocumentMoniker": "C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\Controllers\\StringControl.cs",
               "RelativeDocumentMoniker": "src\\Controllers\\StringControl.cs",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "src\\Controllers\\StringControl.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAYwFIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T11:55:02.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-28T11:55:02.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "NumberControl.cs",
               "DocumentMoniker": "C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\Controllers\\NumberControl.cs",
               "RelativeDocumentMoniker": "src\\Controllers\\NumberControl.cs",
@@ -60,26 +59,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LoaderHandler.cs",
               "DocumentMoniker": "C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\Handlers\\LoaderHandler.cs",
               "RelativeDocumentMoniker": "src\\Handlers\\LoaderHandler.cs",
               "ToolTip": "C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\Handlers\\LoaderHandler.cs",
               "RelativeToolTip": "src\\Handlers\\LoaderHandler.cs",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAAAK4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAIwKUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T07:53:58.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\Program.cs",
               "RelativeDocumentMoniker": "src\\Program.cs",
               "ToolTip": "C:\\Users\\Vico\\source\\repos\\EjerciciosC21\\src\\Program.cs",
               "RelativeToolTip": "src\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T13:33:19.328Z",
               "EditorCaption": ""
