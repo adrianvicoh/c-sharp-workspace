@@ -240,5 +240,22 @@ namespace EjerciciosC21
                 }
             }
         }
+
+        public static void PalindromeLoader()
+        {
+            string inputString = "";
+            while (inputString != "exit")
+            {
+                Console.WriteLine("");
+                Console.WriteLine("Introduce el el string a analizar o escribe 'exit' para cancelar");
+                Console.WriteLine("");
+                Console.Write("EJERCICIOS C2.1 > PALÍNDROMO > ");
+                inputString = Console.ReadLine();
+                Console.WriteLine("");
+                Console.WriteLine("----------------------------------------------------");
+                Console.WriteLine("///// RESULTADO = " + StringControl.Palindrome(inputString));
+                Console.WriteLine("----------------------------------------------------");
+            }
+        }
     }
 }

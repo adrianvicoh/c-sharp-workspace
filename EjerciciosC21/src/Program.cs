@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EjerciciosC21.src.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,6 +39,12 @@ namespace EjerciciosC21
                     case "innum":
                         LoaderHandler.InvertNumLoader();
                         break;
+                    case "palin":
+                        LoaderHandler.PalindromeLoader();
+                        break;
+                    case "guess":
+                        GameControl.GuessGame();
+                        break;
                     default:
                         Console.WriteLine("");
                         Console.WriteLine("------------------");
@@ -50,6 +57,8 @@ namespace EjerciciosC21
                         Console.WriteLine("datec\t-- comparar fechas");
                         Console.WriteLine("instr\t-- invertir texto");
                         Console.WriteLine("innum\t-- invertir número");
+                        Console.WriteLine("palin\t-- palíndromo");
+                        Console.WriteLine("guess\t-- juego de adivinar");
                         Console.WriteLine("exit\t-- salir");
                         Console.WriteLine("");
                         Console.WriteLine("------------------");
