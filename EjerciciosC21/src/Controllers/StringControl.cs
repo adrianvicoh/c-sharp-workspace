@@ -82,5 +82,16 @@ namespace EjerciciosC21.src.Controllers
             }
             return result;
         }
+
+        /*Invert string*/
+        public static string InvertString(string stringInput)
+        {
+            string newString = "";
+            for (int i = stringInput.Length - 1; i >= 0; i--)
+            {
+                newString += stringInput[i];
+            }
+            return newString;
+        }
     }
 }

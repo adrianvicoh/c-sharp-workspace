@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EjerciciosC21
+﻿namespace EjerciciosC21
 {
     public class NumberControl
     {
@@ -33,6 +27,20 @@ namespace EjerciciosC21
                 dividend = dividend - divisor;
             }
             return result;
+        }
+
+        /*Invert number*/
+        public static int InvertNumber(int numInput)
+        {
+            int numFinal = 0;
+            int multiplier = 1;
+            while (numInput > 0)
+            {
+                numFinal += numInput % 10 * multiplier;
+                numInput /= 10;
+                multiplier *= 10;
+            }
+            return numFinal;
         }
     }
 }

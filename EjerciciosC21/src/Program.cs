@@ -32,6 +32,12 @@ namespace EjerciciosC21
                     case "datec":
                         LoaderHandler.DateCompareLoader();
                         break;
+                    case "instr":
+                        LoaderHandler.InvertStrLoader();
+                        break;
+                    case "innum":
+                        LoaderHandler.InvertNumLoader();
+                        break;
                     default:
                         Console.WriteLine("");
                         Console.WriteLine("------------------");
@@ -42,6 +48,8 @@ namespace EjerciciosC21
                         Console.WriteLine("div\t-- división");
                         Console.WriteLine("strc\t-- comparar Strings");
                         Console.WriteLine("datec\t-- comparar fechas");
+                        Console.WriteLine("instr\t-- invertir texto");
+                        Console.WriteLine("innum\t-- invertir número");
                         Console.WriteLine("exit\t-- salir");
                         Console.WriteLine("");
                         Console.WriteLine("------------------");

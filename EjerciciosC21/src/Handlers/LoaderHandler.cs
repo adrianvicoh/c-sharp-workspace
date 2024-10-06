@@ -191,5 +191,54 @@ namespace EjerciciosC21
             }
             Console.WriteLine("----------------------------------------------------");
         }
+
+        public static void InvertStrLoader()
+        {
+            string inputString = "";
+            while (inputString != "exit")
+            {
+                Console.WriteLine("");
+                Console.WriteLine("Introduce el String a invertir o escribe 'exit' para cancelar");
+                Console.WriteLine("");
+                Console.Write("EJERCICIOS C2.1 > INVERTIR STRING > ");
+                inputString = Console.ReadLine();
+                if (inputString != "exit")
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("----------------------------------------------------");
+                    Console.WriteLine("///// RESULTADO = '" + StringControl.InvertString(inputString) + "'");
+                    Console.WriteLine("----------------------------------------------------");
+                }
+            }
+        }
+
+        public static void InvertNumLoader()
+        {
+            string inputString = "";
+            int numInput = 0;
+            bool validInt;
+            while (inputString != "exit")
+            {
+                Console.WriteLine("");
+                Console.WriteLine("Introduce el número entero a invertir o escribe 'exit' para cancelar");
+                Console.WriteLine("");
+                Console.Write("EJERCICIOS C2.1 > INVERTIR NÚMERO > ");
+                inputString = Console.ReadLine();
+                validInt = int.TryParse(inputString, out numInput);
+                if (validInt)
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("----------------------------------------------------");
+                    Console.WriteLine("///// RESULTADO = '" + NumberControl.InvertNumber(numInput) + "'");
+                    Console.WriteLine("----------------------------------------------------");
+                }
+                else if (inputString != "exit")
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("Input o número no válido");
+                    Console.WriteLine("");
+                }
+            }
+        }
     }
 }
